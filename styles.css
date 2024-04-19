@@ -1,0 +1,183 @@
+/* Global styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #6a0dad;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  /* Navigation styles */
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Contact information box styles */
+  .contact-info {
+    background-color: dark-purple;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Aligns items to the left */
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: -30px;
+  }
+  
+  .profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    margin: 0, auto;
+    
+  }
+  
+  .profile-image img {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .profile-text {
+    margin-top: auto; /* Pushes the text to the bottom */
+  }
+  
+  .name, .email, .phone {
+    margin: 5px 0px;
+  }
+  
+  /* Styles for the "Skills" section */
+  .skills-gallery {
+    max-width: 800px;
+    margin: 20px auto; /* Center the section horizontally */
+  }
+  
+  .skills-gallery h2 {
+    text-align: center;
+  }
+  
+  .skill-box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .skill-box {
+    background-color: #f0f0f0; 
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .skill-box img {
+    width: 60px; 
+    height: 80px;
+  }
+  
+  .skill-box p {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .recommendations-block {
+      text-align: center;
+      margin-top: 10px;
+    }
+  
+  .recommendations-block h2{
+      margin-top: 10px;
+    }
+  
+    .recommendation-box {
+      display: inline-block;
+      width: 240px; 
+      height: 220px; 
+      background-color: #f0f0f0;
+      border: 3px solid #ccc; 
+      margin: 10px; 
+      margin-bottom: 30px;
+      padding: -20px; 
+      padding-bottomm 10px;
+      box-sizing: border-box;
+    }
+  
+    .recommendation-box h3 {
+      margin-top: 10px;
+    }
+  
+   .recommendations-form {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+  
+  .recommendations-form h2{
+      max-width: 400px;
+      margin: 0 auto;
+      text-align: left;
+    }
+  
+    .form-group{
+      margin-bottom: 20px;
+    }
+  
+    .form-group label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+  
+    .form-group input[type="text"],
+    .form-group textarea {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+  
+    .form-group textarea {
+      height: 100px;
+    }
+  
+    .form-group button {
+      padding: 10px 20px;
+      background-color: #FDF5E6;
+      color: #800080;
+      border-box: none;
+      width: 140px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
